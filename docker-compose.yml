@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  php:
+    image: chialab/php:7.4-apache
+    ports:
+      - 8080:80
+    volumes:
+      - .:/var/www/html
